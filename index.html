@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Iron Master Company</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<!-- 
+home
+about
+service
+portfolio
+contact
+-->
+
+<div class="row">
+	
+	<!--logo-->
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 logo">
+
+			<img src="logo.png" class="logoPic">
+			<h1 class="logoName">IRON MASTER COMPANY</h1>
+
+	</div>
+
+	<!--nav buttons-->
+
+	
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-7 navButtons">
+
+		<div class="toggle-btn" onclick="myFunction();">
+
+			<span></span>
+			<span></span>
+			<span></span>
+			
+		</div>
+
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="service.html">Services</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+
+	</div>
+</div>	
+
+
+
+
+<div class="row">
+
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 part1">
+
+		<div class="container">
+			<h1 class="welHead">
+				Welcome to <br><span class="welcome">Iron Master Company,</span><br>
+				where precision meets strength in every weld.
+				Our expert welding services are dedicated to delivering top-notch craftsmanship for a wide range of applications.Explore the artistryand durability of our welding work as we bring metal to life.
+			</h1>
+
+			<a class="btn explore" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  			    Explore
+ 			 </a>
+		</div>
+
+		
+	</div>
+
+	<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 part2">
+
+		<img src="group2.png" class="imgSize">
+
+	</div>
+	
+</div>
+
+<br>
+
+
+
+<div>
+	<div class="collapse" id="collapseExample">
+  		<div class="card card-body borderClr">
+
+  			<h1 class="aboutHeading">About Us</h1>
+
+			Iron Master Company is a Karachi multi-disciplinary Construction, 
+			Fabrication & Consulting Firm Specializes in Metal Fabrication, 
+			Construction, Architecture, Interior Design, Product Design, and 
+			Other related engineering services such as Electrical, 
+			Mechanical, Telecommunication, Safety and Surveillance systems.
+
+			<br><br>
+
+			We proudly introduces ourselves a trustworthy solution to all Service 
+			Industry since 90's and has been highly professional source of 
+			providing complete services, equipment and accessories supplies 
+			for entire Industry.
+
+			<br><br>
+
+			IMC offers “Pin To Plane” Solution for 
+			entire Construction, Project Management and Interior Design 
+			Industry & ensures outstanding services in supplying the finest 
+			quality at the most competitive rates to its clients. We are an Interior 
+			Designer and Manufacturer for FF&E (Furniture, Fixture & 
+			Equipment) and has various Architects and Corporate 
+			Organizations in Karachi & Islamabad.
+
+			<br><br>
+
+			We are also committed to perform the best level services and 
+			completes the projects in budget within desired Lead-time. Our 
+			services and business model provide its Clients to procure their 
+			needs for the Service Industry in very competitive budget with best 
+			pricing and on-time projects completion. Our Team builds strong 
+			relationship with its Clients. We have a team of highly experienced 
+			& professional individuals to serve you with the best of their services.
+		
+		</div>
+	</div>
+</div>
+
+<br>
+
+
+
+<script type="text/javascript">
+
+	function myFunction() 
+	{
+		var navBar = document.getElementById('nav');
+		navBar.classList.toggle('Show');
+	}
+		
+</script>
+
+</body>
+</html>

@@ -1,0 +1,404 @@
+		.logo
+		{
+			background-color: #0e3558;
+			height: 100px;
+		}
+
+		.logoPic
+		{
+			height: 95px;
+			margin-left: 40px;
+			margin-right: 5px;
+		}
+
+		.logoName
+		{
+			color: #889bac;
+			font-size: 15px;
+			display: inline-block;
+		}		
+
+		.navButtons
+		{
+			background-color: #0e3558;
+			height: 100px;
+		}
+
+		
+
+		nav
+		{
+			float: right;
+		}
+
+		nav ul li
+		{
+			display: inline-block;
+			padding: 35px 25px;
+		}
+
+		nav ul li a
+		{
+			text-decoration: none;
+			color: #889bac;
+			font-weight: bolder;
+
+		}
+
+		nav ul li a:hover
+		{
+			color: #889bac;
+			text-decoration: none;
+			border-bottom: 2px solid #889bac;
+			border-top: 2px solid #889bac;
+			display: block;
+		}
+
+		.toggle-btn
+		{
+			width: 35px;
+			position: absolute;
+			right: 80px;
+			top: 35px;
+			display: none;
+		}
+
+		.toggle-btn span
+		{
+			display: inline-block;
+			width: 100%;
+			height: 4px;
+			background-color: #889bac;
+			float: left;
+			margin-bottom: 8px;
+		}
+
+		@media (max-width: 991px)
+		{
+			.toggle-btn
+			{
+				display: block;
+			}
+
+			nav
+			{
+				display: none;
+				width: 100%;
+				border-top: 1px solid #0e3558;
+				padding-top: 10px;
+				margin-top: 80px;
+				background-color: #889bac;
+				margin-left: -8%;
+				position: absolute;
+				z-index: 1;
+				border-radius: 10px;
+			}
+
+			nav ul li
+			{
+				padding: 12px 0px;
+				width: 80%;
+			}
+
+			nav ul li:hover
+			{
+				border-bottom: 3px solid #0e3558;
+				border-top: 3px solid #0e3558;
+			}
+
+			nav ul li a
+			{
+				color: #0e3558;
+				font-weight: bolder;
+				display: block;
+			}
+
+			nav ul li a:hover
+			{
+				color: #0e3558;
+				font-weight: bolder;
+			}
+
+			nav.Show
+			{
+				display: block;
+			}
+
+			.logoName
+			{
+				display: none;
+			}
+
+			.logoPic
+			{
+				margin-left: 20%;
+				width: 180px;
+				height: 100px;
+			}
+
+			.caroUp
+			{
+				z-index: 0;
+			}
+		}
+
+		.part1
+		{
+			width: 100%;
+			height: 500px;
+			background-color: #0e3558;
+		}
+
+		.part2
+		{
+			width: 100%;
+			height: 500px;
+			background-color: #0e3558;
+		}
+
+		.imgSize
+		{
+			width: 450px;
+			float: right;
+			margin-top: 55px;
+			margin-left: 10%;
+		}
+
+		.welcome
+		{
+			color: #889bac;
+			font-size: 45px;
+		}
+
+		.welHead
+		{
+			font-size: 18px;
+			text-align: center;
+			margin: 100px 10px 10px 10px;
+			color: #889bac;
+		}
+
+		.explore
+		{
+			margin-left: 45%;
+			background-color:  #889bac;
+			color: #0e3558;
+		}
+
+		@media (max-width: 991px) and (min-width: 768px)
+		{
+
+			.imgSize
+			{
+				width: 400px;
+				margin-top: 105px;
+			}
+
+			.welHead
+			{
+				margin: 100px 10px 10px 10px;
+				font-size: 15px;
+			}
+
+			.welcome
+			{
+				font-size: 40px;
+			}
+
+			.explore
+			{
+				margin-left: 41%;
+			}
+		}
+
+		@media (max-width: 767px) and (min-width: 468px)
+		{
+			.imgSize
+			{
+				width: 330px;
+				margin-top: 172px;
+			}
+
+			.welHead
+			{
+/*				margin: 120px 10px 10px 10px;*/
+				font-size: 13px;
+			}
+
+			.welcome
+			{
+				font-size: 30px;
+			}
+
+			.explore
+			{
+				margin-left: 38%;
+			}
+		}
+
+	.borderClr
+	{
+		border: 4px double #0e3558;
+		margin: 0px 20px 0px 20px;
+	}
+
+	.aboutHeading
+	{
+		color: #0e3558;
+		text-align: center;
+	}
+
+	.contact
+	{
+		background-color:  #889bac;
+		color: #0e3558;
+	}
+
+	.contact:hover
+	{
+		background-color: #0e3558;
+		color:  #889bac;
+		border: 2px solid #889bac;
+		transform: scale(1.1);
+	}
+
+	.contact2
+	{
+		background-color: #0e3558;
+		color: #889bac;
+	}
+
+	.contact2:hover
+	{
+		background-color: #889bac;
+		color: #0e3558;
+		border: 2px solid #0e3558;
+		transform: scale(1.0);
+	}
+
+	.bg-clr
+	{
+		background-color: #0e3558;
+		text-align: center;
+	}
+
+	.cardHeadClr
+	{
+		color: #889bac;
+		text-align: center;
+	}
+
+	.goBack
+	{
+		background-color:  #889bac;
+		color: #0e3558;
+		margin-left: 40%;
+	}
+
+	.goBack:hover
+	{
+		background-color: #0e3558;
+		color:  #889bac;
+		border: 2px solid #889bac;
+		transform: scale(1.1);
+	}
+
+	.service
+	{
+		font-size: 15px;
+		color: #889bac;
+		display: inline-block;
+	}
+
+	.border
+	{
+		width: 100%;
+		height: 58px;
+		background-color: #0e3558;
+		text-align: center;
+	}
+
+	.serviceList li
+	{
+		display: inline-block;
+		color: #889bac;
+		margin-left: 18px;
+		font-size: 15px;
+		border-right: 2px solid #889bac;
+		margin-right: 5px;
+		padding-right: 25px;
+		text-align: center;
+	}
+
+	@media (max-width: 991px)
+	{
+		.border
+		{
+			height: 80px;
+		}
+
+		.serviceList li
+		{
+			font-size: 12px;
+			margin-left: 10px;
+		}
+	}
+
+	.carousel2 .carousel-item2
+	{
+  		height: 250px;
+	}
+
+	.carousel-item2 img 
+	{
+	    position: absolute;
+	    object-fit: cover;
+	    top: 0;
+	    left: 0;
+	    min-height: 250px;
+	}
+
+	.border2
+	{
+		width: 100%;
+		height: 65px;
+		color: #0e3558;
+		text-align: center;
+		background-color: #889bac;
+	}
+
+	.knowHead
+	{
+		font-size: 20px;
+	}
+
+	.listCenter
+	{
+		width: 100%;
+	}
+
+	.background
+	{
+		background-color: #0e3558;
+	}
+
+	.background2
+	{
+		background-color: #889bac;
+	}
+
+	.workshopHead
+	{
+		font-size: 30px;
+		text-align: center;
+		color: #0e3558;
+		text-decoration: underline overline;
+	}
+
+
+
+
+
+
+
+
